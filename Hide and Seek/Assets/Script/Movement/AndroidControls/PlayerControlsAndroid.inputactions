@@ -1,0 +1,82 @@
+{
+    "name": "PlayerControlsAndroid",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "04a83d73-341a-4ae8-b566-5a99ea0f4f88",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "c868f414-8549-4690-8604-4b4266acafe0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "b7fb0d21-d68d-4647-8ff0-59bfd8e97fc6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "e5b4676f-92d5-44c4-91ea-2d792f36a677",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98b07035-ee9e-4f9e-a193-d2e2d587f01d",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "909bf8b1-02fe-4021-a991-6034bd279c43",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8b3f0a8-d82c-4713-9279-655c06e96b5d",
+                    "path": "<AndroidGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93e1a370-7dd2-4613-91dd-7658cf52eed3",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
